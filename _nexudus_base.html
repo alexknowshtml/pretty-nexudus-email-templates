@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings xmlns:o="urn:schemas-microsoft-com:office:office">
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+  <style>
+  :root {
+    color-scheme: light;
+    supported-color-schemes: light;
+  }
+
+  html,
+  body {
+    margin: 0 auto !important;
+    padding: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  * {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  div[style*="margin: 16px 0"] {
+    margin: 0 !important;
+  }
+
+  table,
+  td {
+    mso-table-lspace: 0pt !important;
+    mso-table-rspace: 0pt !important;
+  }
+
+  th {
+    font-weight: normal;
+  }
+
+  table {
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+    table-layout: fixed !important;
+    margin: 0 auto !important;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    -ms-interpolation-mode: bicubic;
+  }
+
+  a[x-apple-data-detectors],
+    {
+    border-bottom: 0 !important;
+    cursor: default !important;
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+
+  body {
+    width: 100% !important;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  </style>
+  <style>
+  @font-face {
+    font-family: "CeraPRO";
+    font-style: italic;
+    font-weight: 600;
+    src: url(https://createandsell.co/assets/fonts/cerapro/CeraPro-BlackItalic.eot?) format("eot"), url(https://createandsell.co/assets/fonts/cerapro/CeraPro-BlackItalic.woff) format("woff"), url(https://createandsell.co/assets/fonts/cerapro/CeraPro-BlackItalic.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "CeraPRO";
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://createandsell.co/assets/fonts/cerapro/CeraPro-Bold.eot?) format("eot"), url(https://createandsell.co/assets/fonts/cerapro/CeraPro-Bold.woff) format("woff"), url(https://createandsell.co/assets/fonts/cerapro/CeraPro-Bold.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "CeraPRO";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://createandsell.co/assets/fonts/cerapro/CeraPro-Regular.eot?) format("eot"), url(https://createandsell.co/assets/fonts/cerapro/CeraPro-Regular.woff) format("woff"), url(https://createandsell.co/assets/fonts/cerapro/CeraPro-Regular.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "CeraPRO";
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://createandsell.cohttps://createandsell.co/assets/fonts/cerapro/CeraPro-RegularItalic.eot?) format("eot"), url(https://createandsell.co/assets/fonts/cerapro/CeraPro-RegularItalic.woff) format("woff"), url(https://createandsell.co/assets/fonts/cerapro/CeraPro-RegularItalic.ttf) format("truetype");
+  }
+  </style>
+  <style>
+  body {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    word-break: break-word;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+    line-height: 1.5;
+    border: 0;
+  }
+
+  a {
+    color: #3b82f6;
+  }
+
+  a:hover {
+    color: #93c5fd;
+  }
+
+  p,
+  .prose>div {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #374151;
+  }
+
+  u {
+    border-radius: 6px;
+    padding: 2px 6px;
+    color: #ffffff;
+    color: #374151;
+    text-decoration: none;
+  }
+
+  h1 {
+    margin: 0 0 32px;
+    font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  h2 {
+    margin: 0 0 12px;
+    padding-top: 20px;
+    font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  h2 em {
+    background: transparent;
+    background-image: linear-gradient(90deg, rgba(255, 225, 0, .1), rgba(245, 228, 101, .485) 4%, rgba(255, 225, 0, .25));
+    font-style: normal;
+    margin: 0 -.4em;
+    padding: .1em .4em;
+    border-radius: .8em .3em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+  h3 {
+    margin: 0 0 12px;
+    padding-top: 20px;
+    font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration: underline;
+  }
+
+  ul li,
+  ol li {
+    font-size: 18px;
+    color: #374151;
+    margin-top: 0;
+    margin-bottom: 18px;
+    line-height: 28px;
+  }
+
+  p,
+  ul li,
+  ol li,
+  .prose>div {
+    font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+  }
+
+  hr {
+    margin: 32px auto;
+    height: 1px;
+    width: 66.666667%;
+    border-width: 0px;
+    background-color: #93c5fd;
+    color: #93c5fd;
+    opacity: 0.25;
+  }
+
+  .cta-button,
+  [owa] .cta-button,
+  [class="cta-button"],
+  .cta-button:link {
+    display: inline-block;
+    margin: 12px 0;
+  }
+
+  .cta-button,
+  [owa] .cta-button,
+  [class="cta-button"],
+  .cta-button:link {
+    background-color: #993d4b;
+  }
+
+  .cta-button,
+  [owa] .cta-button,
+  [class="cta-button"],
+  .cta-button:link {
+    color: #ffffff;
+  }
+
+  .cta-button,
+  [owa] .cta-button,
+  [class="cta-button"],
+  .cta-button:link {
+    border: 12px solid #f2ab27;
+  }
+
+  .cta-button,
+  [owa] .cta-button,
+  [class="cta-button"],
+  .cta-button:link {
+    border-color: #993d4b;
+  }
+
+  .cta-button,
+  [owa] .cta-button,
+  [class="cta-button"],
+  .cta-button:link {
+    border-radius: 3px;
+    border-width: 12px;
+    border-style: solid;
+    cursor: pointer;
+    text-decoration: none !important;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    white-space: nowrap;
+  }
+
+  .cta-button:hover,
+  [owa] .cta-button:hover,
+  [class="cta-button"]:hover,
+  .cta-button:visited,
+  [owa] .cta-button:visited,
+  [class="cta-button"]:visited,
+  .cta-button:active,
+  [owa] .cta-button:active,
+  [class="cta-button"]:active {
+    color: #ffffff;
+  }
+
+  .cta-button:hover,
+  [owa] .cta-button:hover,
+  [class="cta-button"]:hover,
+  .cta-button:visited,
+  [owa] .cta-button:visited,
+  [class="cta-button"]:visited,
+  .cta-button:active,
+  [owa] .cta-button:active,
+  [class="cta-button"]:active {
+    background-color: #993d4b;
+  }
+
+  .cta-button:hover,
+  [owa] .cta-button:hover,
+  [class="cta-button"]:hover,
+  .cta-button:visited,
+  [owa] .cta-button:visited,
+  [class="cta-button"]:visited,
+  .cta-button:active,
+  [owa] .cta-button:active,
+  [class="cta-button"]:active {
+    border: 12px solid #f2ab27;
+  }
+
+  .cta-button:hover,
+  [owa] .cta-button:hover,
+  [class="cta-button"]:hover,
+  .cta-button:visited,
+  [owa] .cta-button:visited,
+  [class="cta-button"]:visited,
+  .cta-button:active,
+  [owa] .cta-button:active,
+  [class="cta-button"]:active {
+    border-color: #993d4b;
+  }
+
+  .cta-button:hover,
+  [owa] .cta-button:hover,
+  [class="cta-button"]:hover,
+  .cta-button:visited,
+  [owa] .cta-button:visited,
+  [class="cta-button"]:visited,
+  .cta-button:active,
+  [owa] .cta-button:active,
+  [class="cta-button"]:active {
+    text-decoration: none !important;
+    text-decoration: none;
+  }
+
+  .cta-button span,
+  [owa] .cta-button span,
+  [class="cta-button"] span {
+    color: #ffffff;
+  }
+
+  .cta-button span,
+  [owa] .cta-button span,
+  [class="cta-button"] span {
+    text-decoration: none !important;
+    text-decoration: none;
+  }
+
+  .m-0 {
+    margin: 0 !important;
+  }
+
+  .mt-6 {
+    margin-top: 6px !important;
+  }
+
+  .mt-8 {
+    margin-top: 8px !important;
+  }
+
+  .mt-16 {
+    margin-top: 16px !important;
+  }
+
+  .mb-12 {
+    margin-bottom: 12px !important;
+  }
+
+  .h-48 {
+    height: 48px !important;
+  }
+
+  .w-full {
+    width: 100% !important;
+  }
+
+  .max-w-600 {
+    max-width: 600px !important;
+  }
+
+  .rounded {
+    border-radius: 4px !important;
+  }
+
+  .bg-backsplash {
+    background-color: #f9f8f4 !important;
+  }
+
+  .bg-background {
+    background-color: #fffffe !important;
+  }
+
+  .px-24 {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+
+  .py-24 {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+  }
+
+  .py-32 {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+  }
+
+  .pr-24 {
+    padding-right: 24px !important;
+  }
+
+  .pb-32 {
+    padding-bottom: 32px !important;
+  }
+
+  .text-left {
+    text-align: left !important;
+  }
+
+  .text-center {
+    text-align: center !important;
+  }
+
+  .font-sans {
+    font-family: ui-sans-serif, system-ui, -apple-system, sans-serif !important;
+  }
+
+  .font-headline {
+    font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif !important;
+  }
+
+  .text-sm {
+    font-size: 14px !important;
+  }
+
+  .text-base {
+    font-size: 16px !important;
+  }
+
+  .font-semibold {
+    font-weight: 600 !important;
+  }
+
+  .text-primary-lighter {
+    color: #374151 !important;
+  }
+
+  .text-primary {
+    color: #272343 !important;
+  }
+
+  .text-secondary-darkest {
+    color: #993d4b !important;
+  }
+
+  .no-underline {
+    text-decoration: none !important;
+  }
+
+  *,
+  ::before,
+  ::after {
+    --tw-shadow: 0 0 #0000;
+  }
+
+  @media (max-width: 640px) {
+    .sm-h-32 {
+      height: 32px !important;
+    }
+
+    .sm-h-36 {
+      height: 36px !important;
+    }
+
+    .sm-w-36 {
+      width: 36px !important;
+    }
+
+    .sm-w-full {
+      width: 100% !important;
+    }
+
+    .sm-rounded-none {
+      border-radius: 0px !important;
+    }
+
+    .sm-bg-transparent {
+      background-color: transparent !important;
+    }
+
+    .sm-px-0 {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    .sm-pl-0 {
+      padding-left: 0 !important;
+    }
+  }
+
+  .survey-answers a {
+    margin: 16px auto;
+    display: block;
+    border-radius: 8px;
+    background-color: #3b82f6;
+    padding: 12px 8px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  </style>
+</head>
+
+<body style="margin: 0; width: 100%; padding: 0; word-break: break-word; -webkit-font-smoothing: antialiased;">
+  <div role="article" aria-roledescription="email" aria-label="" lang="en">
+    <table class="w-full font-sans" style="width: 100%; font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;" cellpadding="0" cellspacing="0" role="presentation">
+      <tr>
+        <td align="center" class="bg-backsplash sm-bg-transparent" style="background-color: #f9f8f4;">
+          <table class="max-w-600 sm-w-full" style="max-width: 600px;" cellpadding="0" cellspacing="0" role="presentation">
+            <tr>
+              <td class="py-32 pr-24 sm-pl-0 text-center" style="padding-top: 32px; padding-bottom: 32px; padding-right: 24px; text-align: center;">
+                <a href="https://709.indyhall.org" style="color: #3b82f6;">
+                  <img src="https://indyhall.org/assets/images/indy-hall.png" width="125" alt="Indy Hall" style="max-width: 100%; vertical-align: middle; line-height: 1.5; border: 0;">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-full text-left" style="width: 100%; text-align: left;">
+                <table class="w-full" style="width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
+                  <tr>
+                    <td class="w-full pb-32" style="width: 100%; padding-bottom: 32px;">
+                      <table class="w-full" style="width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr>
+                          <td class="px-24 py-24 rounded bg-background sm-px-0 sm-rounded-none" style="border-radius: 4px; background-color: #fffffe; padding-left: 24px; padding-right: 24px; padding-top: 24px; padding-bottom: 24px;">
+                            <div class="mt-16 prose">
+                              <h1>Congrats on your new home away from home!</h1>
+                              <p>
+                                We look forward to seeing you in person very soon.
+                              </p>
+                              <p>
+                                Please make sure you save the details below for a smooth and successful arrival at 709 N 2nd Street.
+                              </p>
+                              <!-- Callout Begin -->
+                              <div class="pt-6 my-24 text-xl font-headline bg-callout-highlight" style="margin-top: 24px; margin-bottom: 24px; background-color: #e5c556; padding-top: 6px; font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 20px;">
+                                <div class="px-20 py-24 bg-callout-background leading-32" style="background-color: #fbdd74; padding-left: 20px; padding-right: 20px; padding-top: 24px; padding-bottom: 24px; line-height: 32px;">
+                                  {{ callout }}
+                                </div>
+                              </div>
+                              <!-- Callout End -->
+                              <!-- Read Question Begin -->
+                              <div class="pt-1 my-32 bg-reader_question-border" style="margin-top: 32px; margin-bottom: 32px; background-color: #bfdbfe; padding-top: 1px;">
+                                <div class="p-24 bg-reader_question-background" style="background-color: #dbeafe; padding: 24px;">
+                                  <div class="mb-12 text-center -mt-44" style="margin-top: -44px; margin-bottom: 12px; text-align: center;">
+                                    <img class="inline-block w-56 h-56 rounded-full shadow sm-w-36 sm-h-36" src="https://createandsell.co/assets/brennan-headshot.jpg" alt="" style="max-width: 100%; vertical-align: middle; line-height: 1.5; border: 0; display: inline-block; height: 56px; width: 56px; border-radius: 9999px; box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);">
+                                  </div>
+                                  <div class="font-bold text-center uppercase rounded font-headline" style="border-radius: 4px; text-align: center; font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; font-weight: 700; text-transform: uppercase;">
+                                    Question from John Doe:
+                                  </div>
+                                  <div class="mt-16 leading-normal prose font-sans" style="margin-top: 16px; font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; line-height: 1.5;">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis lectus leo, in fringilla ex consequat tempor. Etiam urna quam, cursus a dui vel, finibus aliquet justo. Quisque molestie quam aliquet diam feugiat varius.
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Read Question End -->
+                              <!-- Click to Tweet Begin -->
+                              <a href="https://twitter.com/intent/tweet?text={{ encodedTweet }}" target="_blank" class="text-current no-underline" style="color: currentColor; text-decoration: none;">
+                                <div class="p-24 my-32 text-center border-2 shadow rounded-xl bg-click_to_tweet-background" style="margin-top: 32px; margin-bottom: 32px; border-radius: 12px; border-width: 2px; background-color: #f9f8fc; padding: 24px; text-align: center; box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);">
+                                  <div class="text-2xl font-headline text-click_to_tweet-text" style="font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 24px; color: #0e172c;">
+                                    {{ tweet }}
+                                  </div>
+                                  <div class="mt-20 text-sm font-bold no-underline uppercase text-click_to_tweet-linkColor font-headline" style="margin-top: 20px; font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 14px; font-weight: 700; text-transform: uppercase; color: #3b82f6; text-decoration: none;">
+                                    Click To Tweet
+                                    <img class="w-24 ml-2 -mt-2" src="https://icon-library.com/images/twitter-bird-vector-icon/twitter-bird-vector-icon-24.jpg" alt="" style="max-width: 100%; vertical-align: middle; line-height: 1.5; border: 0; margin-top: -2px; margin-left: 2px; width: 24px;">
+                                  </div>
+                                </div>
+                              </a>
+                              <!-- Click to Tweet End -->
+                              <!-- Testimonial Begin -->
+                              <div>
+                                <hr class="w-2-3 h-px border-0 opacity-20 text-testimonial-bar bg-testimonial-bar" style="margin: 32px auto; height: 1px; width: 66.666667%; border-width: 0px; background-color: #d4939d; color: #d4939d; opacity: 0.2;">
+                                <table class="w-full my-32" style="margin-top: 32px; margin-bottom: 32px; width: 100%;" width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                                  <tr>
+                                    <td>
+                                      <div class="text-xl font-headline" style="font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 20px;">
+                                        "Excuse my language but this course and the accountability emails you're sending are f#@!ing phenomenal. Thank you
+                                      </div>
+                                    </td>
+                                    <td class="pl-24 text-center w-96" style="width: 96px; padding-left: 24px; text-align: center;" width="96px" align="center">
+                                      <img class="inline-block w-56 h-56 rounded-full shadow-md" src="https://createandsell.co/assets/salespage/mck-kati.jpg" alt="" style="max-width: 100%; vertical-align: middle; line-height: 1.5; border: 0; display: inline-block; height: 56px; width: 56px; border-radius: 9999px; box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);">
+                                      <div class="mt-4 font-bold uppercase font-headline text-xxs text-sales-blue-darkest" style="margin-top: 4px; font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 10px; font-weight: 700; text-transform: uppercase;">
+                                        Kati Kleber
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <hr class="w-2-3 h-px border-0 opacity-20 text-testimonial-bar bg-testimonial-bar" style="margin: 32px auto; height: 1px; width: 66.666667%; border-width: 0px; background-color: #d4939d; color: #d4939d; opacity: 0.2;">
+                              </div>
+                              <!-- Testimonial End -->
+                              <!-- Survey Begin -->
+                              <div class="p-1 mx-auto my-32 shadow rounded-xl bg-survey-background" style="margin-left: auto; margin-right: auto; margin-top: 32px; margin-bottom: 32px; border-radius: 12px; background-color: #f9f8fc; padding: 1px; box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);">
+                                <div class="px-16 pt-40 sm-px-4 bg-survey-background" style="background-color: #f9f8fc; padding-left: 16px; padding-right: 16px; padding-top: 40px;">
+                                  <div class="mb-16 text-lg font-bold text-center font-headline text-primary" style="margin-bottom: 16px; text-align: center; font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 18px; font-weight: 700; color: #272343;">
+                                    What size is your business?
+                                  </div>
+                                  <div class="font-headline survey-answers" style="font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;">
+                                    <a href="http://google.com">Brand new</a>
+                                    <a href="http://google.com">Growing</a>
+                                    <a href="http://google.com">I'm ready to sell it!</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Survey End -->
+                              <!-- Power Heading Start -->
+                              <h3>Power heading</h3>
+                              <h2 class="font-headline" style="margin: 0 0 12px; padding-top: 20px; font-size: 24px; line-height: 32px; font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;">This is a
+                                <em style="background: transparent; background-image: linear-gradient(90deg, rgba(255, 225, 0, .1), rgba(245, 228, 101, .485) 4%, rgba(255, 225, 0, .25)); font-style: normal; margin: 0 -.4em; padding: .1em .4em; border-radius: .8em .3em; -webkit-box-decoration-break: clone; box-decoration-break: clone;">great</em>
+                                article
+                              </h2>
+                              <!-- Power Heading End -->
+                              <!-- Featured Item Start -->
+                              <div class="my-20" style="margin-top: 20px; margin-bottom: 20px;">
+                                <div class="w-full bg-featuredThing-backgroundColor" style="width: 100%; background-color: #f5feff;">
+                                  <div class="px-16 pt-24" style="padding-left: 16px; padding-right: 16px; padding-top: 24px;">
+                                    <a href="#" target="_blank" style="color: #3b82f6;">
+                                      <img class="object-cover w-full" height="100" src="https://images.unsplash.com/photo-1585598117791-876ce25c1884?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=668&amp;q=80" style="max-width: 100%; vertical-align: middle; line-height: 1.5; border: 0; width: 100%; object-fit: cover;" alt="">
+                                    </a>
+                                  </div>
+                                  <div class="p-32" style="padding: 32px;">
+                                    <div class="text-lg font-bold text-center text-featuredThing-taglineColor font-headline" style="text-align: center; font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 18px; font-weight: 700; color: #d4939d;">
+                                      New Product
+                                    </div>
+                                    <div class="mt-5 text-3xl font-bold leading-none text-center text-featuredThing-headlineColor font-headline" style="margin-top: 5px; text-align: center; font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 30px; font-weight: 700; line-height: 1; color: #272343;">
+                                      All the freelance documents and templates you need to make your business a success.
+                                    </div>
+                                    <div class="mt-16 text-xl leading-normal text-center text-featuredThing-textColor font-sans" style="margin-top: 16px; text-align: center; font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; font-size: 20px; line-height: 1.5; color: #272343;">
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac bibendum elit, vitae molestie massa. Aenean sem arcu, lacinia at tellus et, rutrum porttitor justo. Nulla luctus turpis vitae lorem fringilla ultricies.
+                                    </div>
+                                    <div class="mt-24 text-center" style="margin-top: 24px; text-align: center;">
+                                      <a href="#" target="_blank" class="inline-flex items-center px-16 py-8 text-lg font-bold no-underline border-0 rounded-md bg-featuredThing-buttonBackground text-featuredThing-buttonText font-headline" style="display: inline-flex; align-items: center; border-radius: 6px; border-width: 0px; background-color: #3b82f6; padding-left: 16px; padding-right: 16px; padding-top: 8px; padding-bottom: 8px; font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 18px; font-weight: 700; color: #ffffff; text-decoration: none;">
+                                        Learn more
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Featured Item End -->
+                              <!-- Reactions Start -->
+                              <div class="my-32 text-center" style="margin-top: 32px; margin-bottom: 32px; text-align: center;">
+                                <div class="text-lg font-bold font-headline" style="font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 18px; font-weight: 700;">
+                                  What did you think of today's article?
+                                </div>
+                                <div class="flex justify-center mt-16 space-x-8" style="margin-top: 16px; display: flex; justify-content: center;">
+                                  <a href="{{ negativeLink }}" trigger-id="{{ negativeTriggerId }}" class="flex items-center px-16 py-8 no-underline rounded-full bg-reaction-down text-reaction-downIcon font-headline" style="display: flex; align-items: center; border-radius: 9999px; background-color: #fca5a5; padding-left: 16px; padding-right: 16px; padding-top: 8px; padding-bottom: 8px; font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; color: #b91c1c; text-decoration: none;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-16 mr-6 text-reaction-downIcon" viewBox="0 0 20 20" fill="currentColor" style="margin-right: 6px; width: 16px; color: #b91c1c;">
+                                      <path d="M18 9.5a1.5 1.5 0 11-3 0v-6a1.5 1.5 0 013 0v6zM14 9.667v-5.43a2 2 0 00-1.105-1.79l-.05-.025A4 4 0 0011.055 2H5.64a2 2 0 00-1.962 1.608l-1.2 6A2 2 0 004.44 12H8v4a2 2 0 002 2 1 1 0 001-1v-.667a4 4 0 01.8-2.4l1.4-1.866a4 4 0 00.8-2.4z"></path>
+                                    </svg>
+                                    Nah
+                                  </a>
+                                  <a href="{{ positiveLink }}" trigger-id="{{ positiveTriggerId }}" class="flex items-center px-16 py-8 no-underline rounded-full bg-reaction-up text-reaction-upIcon font-headline" style="display: flex; align-items: center; border-radius: 9999px; background-color: #6ee7b7; padding-left: 16px; padding-right: 16px; padding-top: 8px; padding-bottom: 8px; font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; color: #047857; text-decoration: none; --tw-space-x-reverse: 0; margin-right: calc(8px * var(--tw-space-x-reverse)); margin-left: calc(8px * calc(1 - var(--tw-space-x-reverse)));">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-16 mr-6 text-reaction-upIcon" viewBox="0 0 20 20" fill="currentColor" style="margin-right: 6px; width: 16px; color: #047857;">
+                                      <path d="M2 10.5a1.5 1.5 0 113 0v6a1.5 1.5 0 01-3 0v-6zM6 10.333v5.43a2 2 0 001.106 1.79l.05.025A4 4 0 008.943 18h5.416a2 2 0 001.962-1.608l1.2-6A2 2 0 0015.56 8H12V4a2 2 0 00-2-2 1 1 0 00-1 1v.667a4 4 0 01-.8 2.4L6.8 7.933a4 4 0 00-.8 2.4z"></path>
+                                    </svg>
+                                    Loved It
+                                  </a>
+                                </div>
+                              </div>
+                              <!-- Reactions End -->
+                              <!-- CTA Start -->
+                              <div class="my-20" style="margin-top: 20px; margin-bottom: 20px;">
+                                <table class="w-full bg-cta-background" style="width: 100%; background-color: #dbeafe;" width="100%" bgcolor="#dbeafe" cellpadding="0" cellspacing="0" role="presentation">
+                                  <tr>
+                                    <td class="w-1-3" style="width: 33.333333%;" width="33.333333%">
+                                      <img class="object-cover w-full h-full" src="https://projectpack.co/wp-content/uploads/2018/11/project-pack-mockup-1-467x552@2x.png" style="max-width: 100%; vertical-align: middle; line-height: 1.5; border: 0; height: 100%; width: 100%; object-fit: cover;" alt="">
+                                    </td>
+                                    <td class="p-32 text-cta-text" style="padding: 32px; color: #272343;">
+                                      <div class="text-lg font-headline font-bold" style="font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 18px; font-weight: 700;">
+                                        All the freelance documents and templates you need to make your business a success.
+                                      </div>
+                                      <div class="mt-16" style="margin-top: 16px;">
+                                        <a href="{{ ctaButtonUrl }}" target="_blank" class="font-headline inline-flex items-center px-16 py-8 text-sm font-bold no-underline border-0 rounded-md bg-cta-buttonBackground text-cta-buttonText" style="display: inline-flex; align-items: center; border-radius: 6px; border-width: 0px; background-color: #3b82f6; padding-left: 16px; padding-right: 16px; padding-top: 8px; padding-bottom: 8px; font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 14px; font-weight: 700; color: #ffffff; text-decoration: none;">
+                                          Learn more
+                                        </a>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </div>
+                              <!-- CTA End -->
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="px-24 text-left sm-px-0" style="padding-left: 24px; padding-right: 24px; text-align: left;">
+                <div class="m-0 text-base font-semibold no-underline text-secondary-darkest" style="margin: 0; font-size: 16px; font-weight: 600; color: #993d4b; text-decoration: none;">Thanks for being great!</div>
+                <table class="w-full mt-6 font-headline" style="margin-top: 6px; width: 100%; font-family: CeraPRO, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;" cellpadding="0" cellspacing="0" role="presentation">
+                  <tr>
+                    <td class="text-sm text-primary-lighter" style="font-size: 14px; color: #374151;">
+                      <div class="mt-8 text-primary" style="margin-top: 8px; color: #272343;">
+                        <div class="mb-12" style="margin-bottom: 12px;">
+                          You've shared some information with me. If you'd like to change something up - including your email address - <strong><a href="https://createandsell.co/email-profile" style="color: #3b82f6;">click here.</a></strong>
+                        </div>
+                        <div class="mb-12" style="margin-bottom: 12px;">
+                          Not getting what you need? No hard feelings. <strong><a href="{{ unsubscribe_url }}" style="color: #3b82f6;">Unsubscribe from my emails.</a></strong>
+                        </div>
+                        <div class="mb-12" style="margin-bottom: 12px;">
+                          709 N 2nd St, 3rd Floor, Philadelphia PA 19123
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="h-48 sm-h-32" style="height: 48px;"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
